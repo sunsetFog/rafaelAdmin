@@ -2,6 +2,15 @@
   <router-view/>
 </template>
 
+<script>
+export default {
+    name: 'App',
+    created() {
+        this.$store.commit('setTheme', sessionStorage.getItem('theme_skin') || 'light');
+    }
+}
+</script>
+
 <style lang="less">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

@@ -2,7 +2,7 @@ import { createStore } from 'vuex'
 
 import tabs from './modular/tabs.js'
 import login from './modular/login.js'
-import theme from './modular/theme'
+import screenAndRem from './modular/screenAndRem'
 
 
 export default createStore({
@@ -17,6 +17,6 @@ export default createStore({
   modules: {
     tabs,
     login,
-    theme
+    screenAndRem
   }
 })

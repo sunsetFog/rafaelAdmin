@@ -31,10 +31,7 @@ export default {
     methods: {
         changeTheme(type) {
             console.log("-切换主题-0=", type);
-            this.$means.changeTheme(type);
-        },
-        changeTheme(type) {
-            this.$means.changeTheme(type);
+            this.$store.commit('setTheme', type);
         },
     }
 }
