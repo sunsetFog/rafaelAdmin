@@ -7,9 +7,9 @@
             <el-button @click="changeTheme('macaron')">马卡龙主题</el-button>
         </div>
         <LineTextLine>切换皮肤后，js变量实现DOM重新渲染{{ themeValue }}</LineTextLine>
-        <img v-if="themeValue == 'light'" src="@sky/rafaelDesign/static/image1/invoice.png"/>
-        <img v-if="themeValue == 'night'" src="@sky/rafaelDesign/static/image1/AR.png"/>
-        <img v-if="themeValue == 'macaron'" src="@sky/rafaelDesign/static/image1/apply@2x.png"/>
+        <img v-if="themeValue == 'light'" src="@/@energy/rafaelDesign/static/image1/invoice.png"/>
+        <img v-if="themeValue == 'night'" src="@/@energy/rafaelDesign/static/image1/AR.png"/>
+        <img v-if="themeValue == 'macaron'" src="@/@energy/rafaelDesign/static/image1/apply@2x.png"/>
         <LineTextLine>var变量切换</LineTextLine>
         <main class="scenery">
 
