@@ -73,9 +73,10 @@ import 'element-plus/dist/index.css';
 
 import VueCookies from 'vue-cookies';
 
+// vue2的包，不是vue3的
 // 图片预览组件的库 --- 加载失败，单独引用吧
-import Viewer from 'v-viewer';
-import 'viewerjs/dist/viewer.css';
+// import Viewer from 'v-viewer';
+// import 'viewerjs/dist/viewer.css';
 
 rainbow
     .use(store)
